@@ -62,9 +62,23 @@ height: 500px;
     background-color: black;
     color: yellow;
 }
-.variet{
+/* .variet{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+} */
+.img{
+    width: 300px;
+    height: 300px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(1,4fr);
+}
+.lots{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+}
+.lot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);     
 }
 .three{
   display: flex;
@@ -80,6 +94,54 @@ height: 500px;
     width: 400px;
     height: 400px;
 } */
+/* .variet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .variet > div {
+    width: 23%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  .variet  > div > div:first-child {
+    text-align: center;
+    padding: 10px;
+  }
+  .variet  > div > div:first-child img {
+    width: 35%;
+    border-radius: 5px;
+  }
+  .variet > div > div:first-child h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .variet  > div > div:first-child p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .variet > div > div:last-child {
+    text-align: center;
+    padding: 5px;
+  }
+  .variet > div > div:last-child h3 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .variet > div > div:last-child button {
+    margin-top: 10px;
+    padding: 3px 5px;
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .variet  > div > div:last-child button:hover {
+    background-color: yellow;
+  } */
 .headset{
 background-image:url(images/headphones-removebg-preview.png) ;
 width: 600px;
