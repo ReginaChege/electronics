@@ -1,0 +1,156 @@
+body{
+    background-color: aliceblue;
+}
+.all{
+   background-color:#b197fc; 
+}
+#landpage{
+    display: flex;
+    text-decoration: none;
+}
+.land{
+    display: flex;
+    gap: 20px;
+}
+.bu{
+    display: flex;
+    gap: 20px;
+}
+.but{
+    width: 50%;
+    padding: 1%;
+}
+.butt{
+width: 15%;
+}
+.buu{
+    background-color: yellow;
+    padding: 3%;
+}
+.buuu{
+    background-color: transparent;
+    border-color: white;
+    padding: 3%;
+}
+.products{
+  margin-left: -30%; 
+margin-top: 130px;
+width: 700px;
+height: 500px;
+}
+.heading{
+    font-size: 90px;
+}
+.paragraph{
+    font-size: 20px;  
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border-color: white;
+    background-color: transparent;
+    padding: 3%;
+}
+.item{
+    border-radius: 20px;
+}
+.deal{
+    display: flex;
+    gap: 3%;
+}
+.b{
+    background-color: black;
+    color: yellow;
+}
+.variet{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.three{
+  display: flex;
+  gap: 10px;
+}
+.prod{
+    margin-left: 10%;
+}
+/* .lots{
+    display: flex;
+}
+.variet.img{
+    width: 400px;
+    height: 400px;
+} */
+.headset{
+background-image:url(images/headphones-removebg-preview.png) ;
+width: 600px;
+height: 400px;
+background-repeat: no-repeat;
+background-color:lightblue ;
+}
+.p{
+    margin-top: 30px;
+}
+.cam{
+background-image: url(images/cam-removebg-preview.png);
+width: 590px;
+height: 400px;
+background-repeat: no-repeat;
+background-color: pink;
+}
+.ps{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1200px;
+    height: 300px;
+    background-color: #b197fc;
+}
+.console{
+    margin-top: 20%;
+}
+h1{
+font-size: 50px;
+}
+.en{
+    text-align: center;
+}
+.test{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.man{
+    background-color:lightgray;
+    margin-bottom: -15px;
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ends{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    background-color: aliceblue;
+    height: 100px;
+}
+.con{
+    margin-right: -40px;
+}
+.mail{
+    margin-top: 40px;
+    background-color: yellow;
+}
+.sub{
+    margin-top: 25px;
+}
+.head{
+    margin-top: 25px;
+}
+.info{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    gap: 30px;
+    background-color: grey;
+}
