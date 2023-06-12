@@ -87,6 +87,20 @@ height: 500px;
 .prod{
     margin-left: 10%;
 }
+
+.pti img{
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#productitem{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
 /* .lots{
     display: flex;
 }
