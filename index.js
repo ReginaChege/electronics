@@ -1,4 +1,4 @@
-function generateProductCards(data) {
+function productCards(data) {
     const productContainer = document.getElementById("productitem");
     data.forEach((product) => {
       const card = document.createElement("div");
@@ -19,7 +19,7 @@ function generateProductCards(data) {
       .then((response) => response.json())
       .then((data) => {
         const returnedData = data.products.slice(0, 10);
-        generateProductCards(returnedData);
+        productCards(returnedData);
     });
   }
   fetchProducts()
